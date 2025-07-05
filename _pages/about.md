@@ -96,4 +96,4 @@ My research interests include *multimedia computing, information retrieval*.
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/e1407de3ec9711ac14edbf80a87f834d757f2e9a0fdcca47?sc=&fq=&type=&sort=&sortField=&q=陈智伟+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 
 # 📖 Educations
-- *2022.09 - present*, Undergrad in the School of Software, Shandong University. 
+- *2022.09 - Present*, Undergrad in the School of Software, Shandong University. 
