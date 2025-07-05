@@ -17,17 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Zhiwei Chen (陈智伟).
+Hi, I am Zhiheng Fu (付志恒).
 =====
-I'm currently a Master student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). 
+I'm currently an Undergrad student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). 
 
-My research interests include *multimedia computing, information retrieval, and approximate nearest neighbor search*.
+My research interests include *multimedia computing, information retrieval*.
 
 
 # 🔥 News
 - *2025.07.05*: &nbsp;🎉🎉 Two paper have been accepted by **ACM MM 2025**! Thanks to our co-authors!
 - *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
-- *2024.12.21*: &nbsp;🎉🎉 Two papers, with first authors being undergraduate students under my supervision, have been accepted to **ICASSP 2025**! Congratulations to our co-authors!
+- *2024.12.21*: &nbsp;🎉🎉 One paper has been accepted to **ICASSP 2025**! Congratulations to our co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
 - *2024.09.13*: &nbsp;🎉🎉 I was honored to receive the **Huawei Outstanding Technical Collaboration Award (Top 10 globally per year)**.
 
