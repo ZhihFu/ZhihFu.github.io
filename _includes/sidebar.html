@@ -1,0 +1,16 @@
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src= "{{ s.image }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% endfor %}
+  {% endif %}
+  <a href="https://clustrmaps.com/site/1c6du" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=2WKBSJEzzLs3lZITl-PWGfOq1wj1mgYefyhUPTOmNBY&cl=ffffff"></a>
+  </div>
+  
+{% endif %}
