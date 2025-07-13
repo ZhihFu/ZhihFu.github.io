@@ -45,7 +45,7 @@ My research interests include *multimedia computing, information retrieval*.
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** 
