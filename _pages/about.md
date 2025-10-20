@@ -25,6 +25,7 @@ My research interests include *multimedia computing, information retrieval*.
 
 
 # 🔥 News
+- *2025.10.18*: &nbsp;🎉🎉 As the core member, our team wins the Grand Prize in the CICAS Smart Power Scenario Competition. Congratulations to all team members!
 - *2025.07.05*: &nbsp;🎉🎉 Two papers have been accepted by **ACM MM 2025**! Congratulations to our co-authors!
 - *2025.03.27*: &nbsp;📍📍 **FineCIR** is avaliable on Arxiv! Check our latest fantastic work on the [*[Fine-grained CIR]*](https://arxiv.org/abs/2503.21309) 
 - *2024.12.21*: &nbsp;🎉🎉 One paper has been accepted to **ICASSP 2025**! Congratulations to our co-authors!
@@ -97,6 +98,8 @@ My research interests include *multimedia computing, information retrieval*.
 - 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510274983.6/detail/abst)
 - 一种基于分割焦点偏移修正的组合图像检索方法及系统 - 公开号: *CN120144812A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510143920.7/detail/abst)
 - 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510142418.4/detail/abst)
-
+# 🏆 Honors and Awards
+- *2025.10*, National Scholarship (国家奖学金).
+- *2025.10*, **Grand Prize** in the CICAS Smart Power Scenario Competition.
 # 📖 Educations
 - *2022.09 - Present*, Undergrad in the School of Software, Shandong University. 
