@@ -40,7 +40,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : https://github.com/ZhihFu # e.g., "github username"
+  github           : ZhihFu # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
@@ -120,13 +120,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# These settings control the types of collections used by the template
 collections:
   publications:
     output: true
     permalink: /:collection/:path/
 
-# These settings control how pages and collections are included in the site
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -157,7 +156,6 @@ defaults:
       comments: true
 
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -176,7 +174,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -192,10 +189,10 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
