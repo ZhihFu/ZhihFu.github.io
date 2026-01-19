@@ -9,7 +9,7 @@
 title                    : "Zhiheng Fu's Homepage"
 description              : "Undergrad Student at Shandong University."
 url                      : https://ZhihFu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-remote_theme             : "mmistakes/minimal-mistakes"
+# remote_theme             : "mmistakes/minimal-mistakes"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZhihFu/ZhihFu.github.io"
 google_scholar_stats_use_cdn : true 
