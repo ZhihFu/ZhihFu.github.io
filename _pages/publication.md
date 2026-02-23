@@ -38,7 +38,7 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p>
 <li><p><i><b style="color: #C89933">[AAAI]</b> INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval. </i><br>
 <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zhihfu.github.io">***Zhiheng Fu***</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, Jialei Huang, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://weiyinwei.github.io">Yinwei Wei</a> <br>
 Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div>< img src='/images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div>< img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [*Coming Soon*]
@@ -49,7 +49,7 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div>< img src='/images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div>< img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [*Coming Soon*]
