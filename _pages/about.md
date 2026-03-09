@@ -55,7 +55,7 @@ My research interests include *multimedia computing, information retrieval*.
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [*Coming Soon*]
@@ -74,7 +74,7 @@ My research interests include *multimedia computing, information retrieval*.
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
 </div>
-</div>
+</div> -->
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
@@ -108,6 +108,15 @@ My research interests include *multimedia computing, information retrieval*.
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/images/PAIR-ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
+
+[***Zhiheng Fu***](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
