@@ -77,7 +77,7 @@ My research interests include *multimedia computing, information retrieval*.
 </div> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [*Coming Soon*]
