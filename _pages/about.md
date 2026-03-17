@@ -49,7 +49,7 @@ My research interests include *multimedia computing, information retrieval*.
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [*Coming Soon*]
 
-[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), Mingyu Zhang, [***Zhiheng Fu***](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), [Mingyu Zhang](https://zh-mingyu.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
