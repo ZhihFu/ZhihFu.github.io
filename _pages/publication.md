@@ -38,6 +38,15 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p>
 <li><p><i><b style="color: #C89933">[AAAI]</b> INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval. </i><br>
 <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zhihfu.github.io">***Zhiheng Fu***</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, Jialei Huang, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://weiyinwei.github.io">Yinwei Wei</a> <br>
 Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2026</div>< img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**STABLE: Efficient Hybrid Nearest Neighbor Search via Magnitude-Uniformity and Cardinality-Robustness** [*Coming Soon*]
+
+Qianyun Yang, [***Zhiwei Chen***](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [Zhiheng Fu](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='/images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -115,7 +124,7 @@ Guozhi Qiu, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zixu Li](https://lee-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/2026-HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [*Coming Soon*]
+**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [[Code]](https://github.com/Lee-zixu/HABIT)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -126,7 +135,7 @@ Guozhi Qiu, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zixu Li](https://lee-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='/images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [*Coming Soon*]
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiheng Fu***](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), [Jiale Huang](https://arcadiadream.github.io/HJL.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
