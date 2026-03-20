@@ -22,7 +22,72 @@ Hi, I am Zhiheng Fu (付志恒).
 I'm currently an Undergrad student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). 
 
 My research interests include *multimedia computing, information retrieval*.
+> 🤗 I am a strong advocate for open science. All the team projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
 
+# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
+
+Here's the link to our repo! Feel free to check it out. Any feedback or support are always welcome. Thanks for taking a look! ✨
+<br>
+<table style="width:100%; border:none; text-align:center; background-color:transparent;">
+  <tr style="border:none;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>HABIT (AAAI'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>ReTrack (AAAI'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>INTENT (AAAI'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <!-- <a href="" target="_blank">Web</a> |  -->
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
+      </span>
+    </td>  
+    </tr>
+  <tr style="border:none;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>HUD (ACM MM'25)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>OFFSET (ACM MM'25)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755366" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="../images/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>ENCODER (AAAI'25)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a>
+      </span>
+    </td>
+  </tr>
+</table>
 
 # 🔥 News
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
