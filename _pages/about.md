@@ -21,10 +21,10 @@ Hi, I am Zhiheng Fu (付志恒).
 =====
 I'm currently an Undergrad student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). 
 
-My research interests include *multimedia computing, information retrieval*.
-> 🤗 I am a strong advocate for open science. All the team projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion.
+<!-- My research interests include *multimedia computing, information retrieval*.
+> 🤗 I am a strong advocate for open science. All the team projects I have been primarily involved in have been fully open-sourced. We warmly invite you to explore our projects, share your feedback, and connect with us for further discussion. -->
 
-# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Our open source projects
+# <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height:30px; width:auto; vertical-align:middle; margin-right:8px;"> Projects
 
 Here's the link to our repo! Feel free to check it out. Any feedback or support are always welcome. Thanks for taking a look! ✨
 <br>
