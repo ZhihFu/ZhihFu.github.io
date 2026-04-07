@@ -110,6 +110,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </table>
 
 # 🔥 News
+- *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026**! Thanks to all co-authors!
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
 - *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Thanks and Congratulations to all co-authors!
 - *2025.11.08*: &nbsp;🎉🎉 Three papers were accepted by **AAAI 2026**! Thanks and Congratulations to all co-authors!
@@ -119,6 +120,16 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
+
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1">
+
+**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
