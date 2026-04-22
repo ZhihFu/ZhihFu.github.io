@@ -38,6 +38,18 @@ Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p>
 <li><p><i><b style="color: #C89933">[AAAI]</b> INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval. </i><br>
 <a href="https://zivchen-ty.github.io/">Zhiwei Chen</a>, <a href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng Hu</a>, <a href="https://zhihfu.github.io">***Zhiheng Fu***</a>, <a href="https://lee-zixu.github.io"><b><i>Zixu Li</i></b></a>, Jialei Huang, <a href="https://windlikeo.github.io/HQL.github.io/">Qinlei Huang</a>, <a href="https://weiyinwei.github.io">Yinwei Wei</a> <br>
 Annual AAAI Conference on Artificial Intelligence (AAAI 2026). </p> -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='/images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2026</div><img src='/images/STABLE-TKDE26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
