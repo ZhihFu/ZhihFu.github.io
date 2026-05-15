@@ -125,7 +125,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </table>
 
 # 🔥 News
-- *2026.05.14*: &nbsp;🎉🎉 🎉 Thrilled to share that our team won two 1st places🏅, two 2nd places🥈, and one 3rd place🥉 across multiple CVPR 2026 Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross)! Congratulations to all members!
+- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two 1st places🏅, two 2nd places🥈, and one 3rd place🥉 across multiple CVPR 2026 Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross)! Congratulations to all members!
 - *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026**! Thanks to all co-authors!
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
 - *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Thanks and Congratulations to all co-authors!
@@ -272,7 +272,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 🏆 Competition
 - 1st place 🏅, CVPR HD-EPIC VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
 - 1st place 🏅, CVPR EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
-- 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab))
+- 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
 - 2nd place 🥈, CVPR EgoCross (Open-Source Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
 - 3rd place 🥉, CVPR EPIC-KITCHENS-100 Action Detection Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
 
