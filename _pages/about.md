@@ -260,6 +260,57 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
+# 📝 Challenge Technical Report <span style="font-size: 0.7 em;"></span>
+### ("†" denotes project leader, "✉" denotes corresponding author)
+
+
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st</div>< img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [Coming Soon]
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io),  Xiaowei Zhu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 1st</div>< img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [Coming Soon]
+
+[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io)†, [***Zhiheng Fu***](https://zhihfu.github.io),  Guozhi Qiu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 2nd</div>< img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [Coming Soon]
+
+[Zixu Li](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io),  Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
+<div class='paper-box-noline'><div class='paper-box-image-noline'><div><div class="badge">CVPR 2026 Challenge 3rd</div>< img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text-noline' markdown="1"> 
+
+**EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [Coming Soon]
+
+[***Zhiheng Fu***](https://zhihfu.github.io),  [Zixu Li](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), Fangxu Liu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
+
+
+
+
 # 🔖 Patent 
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 - 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510274983.6/detail/abst)
