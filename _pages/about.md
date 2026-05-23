@@ -67,8 +67,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="https://arxiv.org/abs/2604.18037" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Official Version</a>
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> 
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
@@ -77,8 +76,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="http://arxiv.org/abs/2604.17898" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Official Version</a>
+        <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> 
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
@@ -87,8 +85,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
       <span style="font-size: 0.9em;">
         <a href="https://arxiv.org/abs/2604.18051" target="_blank">Paper</a> | 
         <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> | 
-        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Official Version</a>
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> 
       </span>
     </td>  
   </tr>
