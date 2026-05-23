@@ -131,9 +131,10 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 - *2025.07.05*: &nbsp;🎉🎉 Two papers have been accepted by **ACM MM 2025**! Congratulations to our co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
 
-
+<!--
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
-
+ -->
+ # 📝 Publications
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
