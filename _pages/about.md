@@ -263,7 +263,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text-noline' markdown="1"> 
+<div class='paper-box-text' markdown="1"> 
 
 **TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [Coming Soon]
 
@@ -274,7 +274,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text-noline' markdown="1"> 
+<div class='paper-box-text' markdown="1"> 
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [Coming Soon]
 
@@ -285,7 +285,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text-noline' markdown="1"> 
+<div class='paper-box-text' markdown="1"> 
 
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [Coming Soon]
 
@@ -296,7 +296,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text-noline' markdown="1"> 
+<div class='paper-box-text' markdown="1"> 
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [Coming Soon]
 
