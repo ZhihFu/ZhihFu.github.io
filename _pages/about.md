@@ -34,20 +34,20 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
   <tr style="border:none;">
             <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/tema-logo.png" alt="TEMA" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>TEMA (ACL'26)</b><br>
+      <b>TEMA (ACL'26 Main)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>
-        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507" target="_blank">Paper</a> -->
       </span>
     </td>
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="../images/logos/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
       <b>ConeSep (CVPR'26)</b><br>
       <span style="font-size: 0.9em;">
+        <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/Lee-zixu/ConeSep" target="_blank">Code</a>  
-        <!-- <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a> -->
       </span>
     </td>  
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
@@ -140,7 +140,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval**
+**TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Web]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
+
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -150,7 +151,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [*Coming Soon*]
+**Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Web]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
 
 [***Zhiheng Fu***](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), Qianyun Yang, Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io)
 
@@ -161,7 +162,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [*Coming Soon*]
+**ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Web]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), [Mingyu Zhang](https://zh-mingyu.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
@@ -194,7 +195,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Website]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
+**INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Web]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiheng Fu***](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), [Jiale Huang](https://arcadiadream.github.io/HJL.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
 
@@ -229,7 +230,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Website]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
+**FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Web]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
 
 [Zixu Li](https://lee-zixu.github.io),  [***Zhiheng Fu***](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm),  [Zhiwei Chen](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
@@ -252,7 +253,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Website]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
+**ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Web]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
 [Zixu Li](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [***Zhiheng Fu***](https://ZhihFu.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
 
