@@ -124,7 +124,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </table>
 
 # 🔥 News
-- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two 1st places🏅, two 2nd places🥈, and one 3rd place🥉 across multiple CVPR 2026 Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross)! Congratulations to all members!
+- *2026.06.02*: &nbsp;🎉🎉 Thrilled to share that our team won the **1st Place**🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!
+- *2026.05.14*: &nbsp;🎉🎉 Thrilled to share that our team won two **1st places**🏅, two **2nd places**🥈, and one **3rd place**🥉 across multiple Challenges (HD-EPIC, EPIC-KITCHENS, and EgoCross) at the EgoVis Workshop @ CVPR 2026! Congratulations to all members!
 - *2026.04.07*: &nbsp;🎉🎉 One paper (TEMA), was accepted by **ACL 2026**! Thanks to all co-authors!
 - *2026.03.17*: &nbsp;🎉🎉 One paper (STABLE), was accepted by **TKDE 2026**! Congratulations to all co-authors!
 - *2026.02.21*: &nbsp;🎉🎉 Two papers (ConeSep, Air-Know), were accepted by **CVPR 2026**! Thanks and Congratulations to all co-authors!
@@ -264,6 +265,16 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Challenge Technical Report <span style="font-size: 0.7 em;"></span>
 ### ("†" denotes project leader, "✉" denotes corresponding author)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div>< img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> 
+
+**R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
+
+[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [***Zhiheng Fu***](https://zhihfu.github.io),  [Zhiwei Chen](https://zivchen-ty.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
@@ -321,12 +332,14 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 - *2025.10*, National Scholarship (国家奖学金).
 - *2025.10*, **Grand Prize** in the CICAS Smart Power Scenario Competition.
 
+
 # 🏆 Competition
-- 1st place 🏅, CVPR HD-EPIC VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
-- 1st place 🏅, CVPR EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
-- 2nd place 🥈, CVPR EgoCross (Source-Limited Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
-- 2nd place 🥈, CVPR EgoCross (Open-Source Track): Cross Domain Ego-centric VQA Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
-- 3rd place 🥉, CVPR EPIC-KITCHENS-100 Action Detection Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
+- 1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.
+- 1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
+- 1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
+- 2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Source-Limited Track, 2026. [[Link]](https://www.codabench.org/competitions/11279/#/results-tab)
+- 2nd place 🥈, CVPR EgoVis Workshop, EgoCross Challenge-Open-Source Track, 2026. [[Link]](https://www.codabench.org/competitions/13868/#/results-tab)
+- 3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
 
 # 📖 Educations
 - *2022.09 - Present*, Undergrad in the School of Software, Shandong University. 
