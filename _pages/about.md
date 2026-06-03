@@ -265,7 +265,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Challenge Technical Report <span style="font-size: 0.7 em;"></span>
 ### ("†" denotes project leader, "✉" denotes corresponding author)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div>< img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
