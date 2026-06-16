@@ -345,7 +345,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 - *2022.09 - Present*, Undergrad in the School of Software, Shandong University. 
 
 # 📃 Services
-- Conference PC Member: AAAI
+- Serving as a reviewer for AAAI, IJCNN.
 
 
 <br>
