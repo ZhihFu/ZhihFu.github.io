@@ -338,13 +338,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
       const sectionHeadings = Array.from(wrapper.querySelectorAll('h1, h2, h3')).filter(h => h.id === 'challenge-technical-report' || /Publications|Challenge/.test(h.textContent));
       paperBoxes.forEach((box, index) => {
-        box.dataset.originalOrder = String(index + 10);
-        box.style.order = String(index + 10);
-      });
-      sectionHeadings.forEach((heading, index) => {
-        heading.dataset.originalOrder = String(index + 1);
-        heading.style.order = String(index + 1);
-      });
+      box.dataset.originalOrder = String(index + 10);
+    });
+    sectionHeadings.forEach((heading, index) => {
+      heading.dataset.originalOrder = String(index + 1);
+    });
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026']);
   const venueFullNames = {
