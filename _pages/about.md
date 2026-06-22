@@ -404,12 +404,25 @@ document.addEventListener('DOMContentLoaded', function() {
   function textContainerLinkButtons() {
     paperBoxes.forEach(box => {
       const textContainer = box.querySelector('.paper-box-text');
-      if (!textContainer) return;
+      if (!textContainer || textContainer.querySelector('.paper-link-container')) return;
       const firstParagraph = textContainer.querySelector('p');
       if (!firstParagraph) return;
+
+      const linkContainer = document.createElement('div');
+      linkContainer.className = 'paper-link-container';
       firstParagraph.querySelectorAll('a').forEach(link => {
         link.classList.add('paper-link-btn');
+        linkContainer.appendChild(link);
       });
+
+      if (linkContainer.children.length > 0) {
+        const badgeContainer = textContainer.querySelector('.badge-container');
+        if (badgeContainer) {
+          badgeContainer.insertAdjacentElement('afterend', linkContainer);
+        } else {
+          firstParagraph.insertAdjacentElement('afterend', linkContainer);
+        }
+      }
     });
   }
 
