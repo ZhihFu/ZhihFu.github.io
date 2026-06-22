@@ -392,7 +392,7 @@ body {
   height: auto !important;
   min-height: 0 !important;
   margin: 1.35rem 0 !important;
-  padding: 0 !important;
+  padding: 1rem !important;
   background: #ffffff !important;
   border: 1px solid rgba(1, 47, 99, 0.08) !important;
   border-radius: 14px !important;
@@ -516,7 +516,7 @@ body {
   flex: 1 1 60% !important;
   width: 60% !important;
   max-width: 60% !important;
-  padding: 0.6rem 1.25rem 0.6rem 0 !important;
+  padding: 0 !important;
   margin: 0 !important;
   align-self: center !important;
   justify-content: center !important;
