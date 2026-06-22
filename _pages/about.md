@@ -137,8 +137,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <!--
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
  -->
- 
-# 📝 Publications
+ # 📝 Publications
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
@@ -334,6 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const filterContainer = document.getElementById('filter-container');
   const paperBoxes = wrapper.querySelectorAll('.paper-box');
+  const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   let tagCounts = {};
   let activeTags = new Set();
 
@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (textContainer && !textContainer.querySelector('.badge-container')) {
       const badgeContainer = document.createElement('div');
       badgeContainer.className = 'badge-container';
-      tagsList.forEach(tag => {
+      tagsList.filter(tag => !linkLikeTags.has(tag)).forEach(tag => {
         const badge = document.createElement('span');
         badge.className = 'inner-tag-badge';
         badge.textContent = tag;
@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    tagsList.forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+    tagsList.filter(tag => !linkLikeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
   });
 
   textContainerLinkButtons();
