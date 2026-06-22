@@ -352,12 +352,21 @@ document.addEventListener('DOMContentLoaded', function() {
         badge.textContent = tag;
         badgeContainer.appendChild(badge);
       });
-      if (linksContainer) textContainer.insertBefore(badgeContainer, linksContainer);
-      else textContainer.appendChild(badgeContainer);
+
+      const paragraphs = textContainer.querySelectorAll('p');
+      if (paragraphs.length >= 2) {
+        paragraphs[1].insertAdjacentElement('afterend', badgeContainer);
+      } else if (linksContainer) {
+        textContainer.insertBefore(badgeContainer, linksContainer);
+      } else {
+        textContainer.appendChild(badgeContainer);
+      }
     }
 
     tagsList.forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
   });
+
+  textContainerLinkButtons();
 
   const sortedTags = Object.keys(tagCounts).sort();
   if (filterContainer) {
@@ -377,6 +386,18 @@ document.addEventListener('DOMContentLoaded', function() {
         filterPapers();
       };
       filterContainer.appendChild(btn);
+    });
+  }
+
+  function textContainerLinkButtons() {
+    paperBoxes.forEach(box => {
+      const textContainer = box.querySelector('.paper-box-text');
+      if (!textContainer) return;
+      const firstParagraph = textContainer.querySelector('p');
+      if (!firstParagraph) return;
+      firstParagraph.querySelectorAll('a').forEach(link => {
+        link.classList.add('paper-link-btn');
+      });
     });
   }
 
