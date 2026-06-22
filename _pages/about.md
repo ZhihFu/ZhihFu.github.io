@@ -8,6 +8,88 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+/* 动态标签和过滤器按钮的预设样式 */
+#filter-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid #e1e4e8;
+  border-radius: 20px;
+  background-color: #f6f8fa;
+  color: #586069;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-btn:hover {
+  background-color: #eaecef;
+  color: #24292e;
+}
+.filter-btn.active {
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(17, 153, 142, 0.3);
+}
+.badge-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.inner-tag-badge {
+  font-size: 0.75em;
+  padding: 2px 8px;
+  background-color: #f1f3f5;
+  color: #495057;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  transition: all 0.2s ease;
+}
+.inner-tag-badge.active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+  font-weight: bold;
+}
+.venue-full-name {
+  font-size: 0.85em;
+  color: #6a737d;
+  font-style: italic;
+  margin: 4px 0;
+}
+.paper-link-container {
+  margin-top: 8px;
+}
+.paper-link-btn {
+  font-size: 0.85em;
+  padding: 2px 8px;
+  margin-right: 4px;
+  background-color: #fff;
+  border: 1px solid #0366d6;
+  color: #0366d6 !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+.paper-link-btn:hover {
+  background-color: #0366d6;
+  color: #fff !important;
+}
+.author-self {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.floating-card {
+  transition: opacity 0.3s ease;
+}
+</style>
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
