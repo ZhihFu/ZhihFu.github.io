@@ -138,8 +138,12 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
  -->
  # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div id="publications-wrapper">
+<div id="filter-container"></div>
+ 
+<div class='paper-box floating-card' data-tags="Paper, ACL 2026, CIR, Image Retrieval, Multi-Modification, Code, Project Page"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
 
@@ -319,6 +323,77 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.getElementById('publications-wrapper');
+  if (!wrapper) return;
+
+  const filterContainer = document.getElementById('filter-container');
+  const paperBoxes = wrapper.querySelectorAll('.paper-box');
+  let tagCounts = {};
+  let activeTags = new Set();
+
+  paperBoxes.forEach(box => {
+    const tagsAttribute = box.getAttribute('data-tags');
+    if (!tagsAttribute) return;
+    const tagsList = tagsAttribute.split(',').map(t => t.trim()).filter(t => t);
+
+    const textContainer = box.querySelector('.paper-box-text');
+    const linksContainer = box.querySelector('.links');
+    if (textContainer && !textContainer.querySelector('.badge-container')) {
+      const badgeContainer = document.createElement('div');
+      badgeContainer.className = 'badge-container';
+      tagsList.forEach(tag => {
+        const badge = document.createElement('span');
+        badge.className = 'inner-tag-badge';
+        badge.textContent = tag;
+        badgeContainer.appendChild(badge);
+      });
+      if (linksContainer) textContainer.insertBefore(badgeContainer, linksContainer);
+      else textContainer.appendChild(badgeContainer);
+    }
+
+    tagsList.forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+  });
+
+  const sortedTags = Object.keys(tagCounts).sort();
+  if (filterContainer) {
+    filterContainer.innerHTML = '';
+    sortedTags.forEach(tag => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.textContent = `${tag} (${tagCounts[tag]})`;
+      btn.onclick = () => {
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+          btn.classList.remove('active');
+        } else {
+          activeTags.add(tag);
+          btn.classList.add('active');
+        }
+        filterPapers();
+      };
+      filterContainer.appendChild(btn);
+    });
+  }
+
+  function filterPapers() {
+    paperBoxes.forEach(box => {
+      const boxTagsString = box.getAttribute('data-tags');
+      const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
+      const isVisible = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+      box.classList.toggle('hidden', !isVisible);
+      box.querySelectorAll('.inner-tag-badge').forEach(badge => {
+        badge.classList.toggle('active', activeTags.has(badge.textContent));
+      });
+    });
+  }
+});
+</script>
+
+</div>
 
 
 
