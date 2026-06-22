@@ -334,6 +334,14 @@ document.addEventListener('DOMContentLoaded', function() {
   const filterContainer = document.getElementById('filter-container');
   const paperBoxes = wrapper.querySelectorAll('.paper-box');
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
+  const venueFullNames = {
+    'ACL 2026': 'The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)',
+    'CVPR 2026': 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)',
+    'AAAI 2026': 'The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)',
+    'ACM MM 2025': 'ACM International Conference on Multimedia (ACM MM 2025)',
+    'AAAI 2025': 'The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)',
+    'Arxiv 2025': 'arXiv preprint (2025)'
+  };
   let tagCounts = {};
   let activeTags = new Set();
 
@@ -368,6 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   textContainerLinkButtons();
+  enrichPaperCards();
 
   const sortedTags = Object.keys(tagCounts).sort();
   if (filterContainer) {
@@ -399,6 +408,35 @@ document.addEventListener('DOMContentLoaded', function() {
       firstParagraph.querySelectorAll('a').forEach(link => {
         link.classList.add('paper-link-btn');
       });
+    });
+  }
+
+  function enrichPaperCards() {
+    paperBoxes.forEach(box => {
+      const textContainer = box.querySelector('.paper-box-text');
+      if (!textContainer) return;
+      const paragraphs = textContainer.querySelectorAll('p');
+      const titleParagraph = paragraphs[0];
+      const authorParagraph = paragraphs[1];
+      if (!titleParagraph || !authorParagraph) return;
+
+      const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
+      const venueKey = Object.keys(venueFullNames).find(key => badgeText.includes(key));
+      if (venueKey && !textContainer.querySelector('.venue-full-name')) {
+        const venue = document.createElement('div');
+        venue.className = 'venue-full-name';
+        venue.textContent = venueFullNames[venueKey];
+        titleParagraph.insertAdjacentElement('afterend', venue);
+      }
+
+      authorParagraph.classList.add('paper-authors');
+      authorParagraph.innerHTML = authorParagraph.innerHTML
+        .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zhiheng Fu</a>')
+        .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
+        .replace(/\*\*\*Zhiheng Fu\*\*\*/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
+        .replace(/Zhiheng Fu/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
+        .replace(/✉/g, '<span class="author-mail" title="Corresponding author">📧</span>')
+        .replace(/†/g, '<span class="author-star" title="Project leader">⭐</span>');
     });
   }
 
