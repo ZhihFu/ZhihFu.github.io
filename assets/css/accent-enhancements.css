@@ -551,14 +551,14 @@ body {
 
 #publications-wrapper .author-self,
 #publications-wrapper .author-self:visited {
-  background: linear-gradient(90deg, #a855f7 0%, #ec4899 50%, #fb7185 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
-  font-weight: 800 !important;
-  text-decoration: none !important;
-  filter: saturate(1.35) contrast(1.05);
-}
+      background: linear-gradient(90deg, #a855f7 0%, #ec4899 50%, #fb7185 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+      background-clip: text !important;
+      font-weight: 800 !important;
+      text-decoration: none !important;
+      filter: saturate(1.35) contrast(1.05);
+    }
 
 #publications-wrapper .badge-container {
   display: flex !important;
