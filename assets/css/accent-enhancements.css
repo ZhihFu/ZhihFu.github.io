@@ -386,7 +386,7 @@ body {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
-  align-items: center !important;
+  align-items: stretch !important;
   gap: 2rem !important;
   width: 100% !important;
   height: auto !important;
@@ -431,7 +431,7 @@ body {
   width: 40% !important;
   max-width: 40% !important;
   min-width: 200px !important;
-  height: auto !important;
+  height: 100% !important;
   min-height: 0 !important;
   max-height: none !important;
   padding: 0 !important;
@@ -440,9 +440,9 @@ body {
   background-color: transparent !important;
   background-image: none !important;
   display: flex !important;
-  align-items: center !important;
+  align-items: stretch !important;
   justify-content: center !important;
-  align-self: center !important;
+  align-self: stretch !important;
   overflow: visible !important;
   box-sizing: border-box !important;
   position: relative !important;
@@ -456,7 +456,7 @@ body {
 
 #publications-wrapper .paper-box .paper-box-image > div {
   width: 100% !important;
-  height: auto !important;
+  height: 100% !important;
   min-height: 0 !important;
   max-height: none !important;
   padding: 0 !important;
@@ -473,7 +473,7 @@ body {
   display: block !important;
   width: 100% !important;
   max-width: 400px !important;
-  height: auto !important;
+  height: 100% !important;
   min-height: 0 !important;
   max-height: none !important;
   aspect-ratio: auto !important;
@@ -518,8 +518,10 @@ body {
   max-width: 60% !important;
   padding: 0 !important;
   margin: 0 !important;
-  align-self: center !important;
+  align-self: stretch !important;
   justify-content: center !important;
+  display: flex !important;
+  flex-direction: column !important;
   box-sizing: border-box !important;
   color: #012F63 !important;
 }
