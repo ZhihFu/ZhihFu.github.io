@@ -137,7 +137,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <!--
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
  -->
- # 📝 Publications
+ 
+# 📝 Publications
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
