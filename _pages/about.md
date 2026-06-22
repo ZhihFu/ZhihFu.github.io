@@ -140,7 +140,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
 
-<div id="publications-wrapper">
+<div id="publications-wrapper" style="display:flex; flex-direction:column;">
 <div id="filter-container"></div>
 
 <h1 id="challenge-technical-report">📝 Selected Publications</h1>
@@ -335,7 +335,16 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!wrapper) return;
 
   const filterContainer = document.getElementById('filter-container');
-  const paperBoxes = wrapper.querySelectorAll('.paper-box');
+      const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
+      const sectionHeadings = Array.from(wrapper.querySelectorAll('h1, h2, h3')).filter(h => h.id === 'challenge-technical-report' || /Publications|Challenge/.test(h.textContent));
+      paperBoxes.forEach((box, index) => {
+        box.dataset.originalOrder = String(index + 10);
+        box.style.order = String(index + 10);
+      });
+      sectionHeadings.forEach((heading, index) => {
+        heading.dataset.originalOrder = String(index + 1);
+        heading.style.order = String(index + 1);
+      });
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026']);
   const venueFullNames = {
@@ -461,25 +470,27 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function filterPapers() {
-      paperBoxes.forEach((box, index) => {
-        if (!box.dataset.originalOrder) box.dataset.originalOrder = index;
-        const boxTagsString = box.getAttribute('data-tags');
-        const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
-        const isVisible = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+        paperBoxes.forEach(box => {
+          const boxTagsString = box.getAttribute('data-tags');
+          const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
+          const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
     
-        box.classList.toggle('hidden', !isVisible);
+          // Do not hide non-matches. When filters are active, push matched cards to the top
+          // so users do not need to scroll down to find selected papers.
+          box.classList.remove('hidden');
+          box.style.order = activeTags.size > 0 && isMatched ? '5' : box.dataset.originalOrder;
+          box.style.opacity = activeTags.size > 0 && !isMatched ? '0.38' : '1';
     
-        box.querySelectorAll('.inner-tag-badge').forEach(badge => {
-          badge.classList.toggle('active', activeTags.has(badge.textContent));
+          box.querySelectorAll('.inner-tag-badge').forEach(badge => {
+            badge.classList.toggle('active', activeTags.has(badge.textContent));
+          });
         });
     
-        if (activeTags.size > 0) {
-          box.style.order = isVisible ? 0 : 1;
-        } else {
-          box.style.order = box.dataset.originalOrder;
-        }
-      });
-    }
+        sectionHeadings.forEach(heading => {
+          heading.style.order = activeTags.size > 0 ? '9998' : heading.dataset.originalOrder;
+          heading.style.opacity = activeTags.size > 0 ? '0.35' : '1';
+        });
+      }
 });
 </script>
 
