@@ -383,11 +383,10 @@ body {
 }
 
 #publications-wrapper .paper-box {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: nowrap !important;
+  display: grid !important;
+  grid-template-columns: minmax(200px, 40%) minmax(0, 1fr) !important;
   align-items: center !important;
-  gap: 2rem !important;
+  column-gap: 2rem !important;
   width: 100% !important;
   height: auto !important;
   min-height: 0 !important;
@@ -427,10 +426,9 @@ body {
 
 /* Left image column: no gray backplate, no fixed height. Height follows image. */
 #publications-wrapper .paper-box .paper-box-image {
-  flex: 0 0 40% !important;
-  width: 40% !important;
-  max-width: 40% !important;
-  min-width: 200px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
   height: auto !important;
   min-height: 0 !important;
   max-height: none !important;
@@ -513,9 +511,8 @@ body {
 
 /* Right text column. It stays vertically centered against the image. */
 #publications-wrapper .paper-box .paper-box-text {
-  flex: 1 1 60% !important;
-  width: 60% !important;
-  max-width: 60% !important;
+  width: 100% !important;
+  max-width: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
   align-self: center !important;
@@ -624,9 +621,9 @@ body {
 
 @media (max-width: 768px) {
   #publications-wrapper .paper-box {
-    flex-direction: column !important;
+    grid-template-columns: 1fr !important;
     align-items: stretch !important;
-    gap: 1rem !important;
+    row-gap: 1rem !important;
     padding: 1.1rem !important;
   }
 
