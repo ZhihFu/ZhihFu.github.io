@@ -398,7 +398,7 @@ body {
   border-radius: 14px !important;
   box-shadow: 0 4px 15px rgba(1, 47, 99, 0.08) !important;
   position: relative !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   box-sizing: border-box !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
 }
