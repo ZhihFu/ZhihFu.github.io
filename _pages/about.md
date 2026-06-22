@@ -373,7 +373,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
-</div> <script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.getElementById('publications-wrapper');
   if (!wrapper) return;
