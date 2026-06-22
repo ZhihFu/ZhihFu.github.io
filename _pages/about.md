@@ -138,7 +138,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
  -->
 # 📝 Publications
-<div class="paper-note">📧 denotes corresponding author; ⭐ denotes project leader.</div>
+<div class="paper-note">⚓️ denotes first author; ⭐ denotes project leader; 📧 denotes corresponding author.</div>
 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
@@ -268,7 +268,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 # 📝 Challenge Technical Report
-<div class="paper-note">📧 denotes corresponding author; ⭐ denotes project leader.</div>
 
 <div class='paper-box floating-card' data-tags="Technical Report, CVPR 2026, Challenge 1st, CVR, Video Retrieval, Reasoning, Reranking, Project Page"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
