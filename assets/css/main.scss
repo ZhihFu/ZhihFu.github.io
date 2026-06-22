@@ -272,3 +272,34 @@ h1:before, .anchor:before {
   box-shadow: 0 5px 14px rgba(254, 102, 123, 0.35);
 }
 
+.venue-full-name {
+  margin: -0.25rem 0 0.65rem 0;
+  color: #6b7280;
+  font-size: 0.86rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.paper-authors {
+  color: #4a5568;
+  font-size: 0.93rem;
+}
+
+.author-self,
+.author-self:visited {
+  background: linear-gradient(135deg, #012F63 0%, #1a4f8a 45%, #FE667B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.author-mail,
+.author-star {
+  display: inline-block;
+  margin-left: 0.08rem;
+  font-size: 0.92em;
+  vertical-align: 0.02em;
+}
+
