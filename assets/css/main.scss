@@ -88,8 +88,8 @@
 
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: none;
@@ -127,13 +127,21 @@
 
     .paper-box-image{
         justify-content: center;
+        align-items: flex-start;
         display: flex;
         width: 100%;
         order: 2;
+        background: transparent !important;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 !important;
         img {
+            display: block;
+            width: 100%;
+            height: auto !important;
             max-width: 400px;
             box-shadow: 0 2px 8px rgba(1, 47, 99, 0.1);
-            object-fit: cover;
+            object-fit: contain;
             border-radius: 6px;
             transition: all 0.3s ease;
         }
@@ -172,14 +180,18 @@
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
+            align-items: flex-start;
+            flex: 0 0 40%;
             min-width: 200px;
             max-width: 40%;
+            width: 40%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
+            flex: 1 1 60%;
             max-width: 60%;
             order: 2;
         }
@@ -301,5 +313,20 @@ h1:before, .anchor:before {
   margin-left: 0.08rem;
   font-size: 0.92em;
   vertical-align: 0.02em;
+}
+
+.paper-note {
+  margin: -0.45rem 0 1rem 0;
+  color: #6b7280;
+  font-size: 0.88rem;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.paper-box-image > div {
+  background: transparent !important;
+  height: auto !important;
+  min-height: 0 !important;
+  width: 100%;
 }
 
