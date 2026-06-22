@@ -143,7 +143,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<div class='paper-box floating-card' data-tags="Paper, ACL 2026, CIR, Image Retrieval, Multi-Modification, Code, Project Page"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Paper, ACL 2026, CCF A, Multimodal understanding, Code, Project Page"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
