@@ -189,7 +189,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
 
-<h1 id="challenge-technical-report">📝 Selected Publications</h1>
+<h1 style="margin-top: 30px; font-size: 2em; font-weight: bold;">📝 Selected Publications</h1>
 
 <div class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding">
 <div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
@@ -245,7 +245,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
-<h1 id="challenge-technical-report">📝 Challenge Technical Report</h1>
+<h1 style="margin-top: 40px; font-size: 2em; font-weight: bold;">📝 Challenge Technical Report</h1>
+
 
 <div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning">
 <div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
