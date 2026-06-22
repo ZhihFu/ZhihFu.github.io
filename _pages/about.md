@@ -140,7 +140,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
 
-<div id="publications-wrapper" style="display:flex; flex-direction:column;">
+<div id="publications-wrapper">
 <div id="filter-container"></div>
 
 <h1 id="challenge-technical-report">📝 Selected Publications</h1>
@@ -470,27 +470,43 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function filterPapers() {
-        paperBoxes.forEach(box => {
-          const boxTagsString = box.getAttribute('data-tags');
-          const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
-          const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
-    
-          // Do not hide non-matches. When filters are active, push matched cards to the top
-          // so users do not need to scroll down to find selected papers.
-          box.classList.remove('hidden');
-          box.style.order = activeTags.size > 0 && isMatched ? '5' : box.dataset.originalOrder;
-          box.style.opacity = activeTags.size > 0 && !isMatched ? '0.38' : '1';
-    
-          box.querySelectorAll('.inner-tag-badge').forEach(badge => {
-            badge.classList.toggle('active', activeTags.has(badge.textContent));
-          });
-        });
-    
-        sectionHeadings.forEach(heading => {
-          heading.style.order = activeTags.size > 0 ? '9998' : heading.dataset.originalOrder;
-          heading.style.opacity = activeTags.size > 0 ? '0.35' : '1';
-        });
-      }
+    paperBoxes.forEach(box => {
+      const boxTagsString = box.getAttribute('data-tags');
+      const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
+      const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+
+      // Keep original labels/buttons intact: no wrapper-level flex/order reflow.
+      // Move matched cards before the first non-matched card in the DOM, then dim non-matches.
+      box.classList.remove('hidden');
+      box.style.order = '';
+      box.style.opacity = activeTags.size > 0 && !isMatched ? '0.38' : '1';
+
+      box.querySelectorAll('.inner-tag-badge').forEach(badge => {
+        badge.classList.toggle('active', activeTags.has(badge.textContent));
+      });
+    });
+
+    sectionHeadings.forEach(heading => {
+      heading.style.order = '';
+      heading.style.opacity = '1';
+    });
+
+    if (activeTags.size > 0) {
+      const sortedBoxes = [...paperBoxes].sort((a, b) => {
+        const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+        const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
+        const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
+        const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
+        if (aMatched !== bMatched) return aMatched ? -1 : 1;
+        return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
+      });
+      sortedBoxes.forEach(box => wrapper.insertBefore(box, document.currentScript));
+    } else {
+      [...paperBoxes]
+        .sort((a, b) => Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder))
+        .forEach(box => wrapper.insertBefore(box, document.currentScript));
+    }
+  }
 });
 </script>
 
