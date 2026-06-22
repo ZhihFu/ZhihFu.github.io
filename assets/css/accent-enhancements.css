@@ -864,3 +864,83 @@ body {
   }
 }
 
+/* FINAL override for ZhihFu publications: no image backplate, natural image height. */
+#publications-wrapper .paper-box.floating-card {
+  align-items: flex-start !important;
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image {
+  position: relative !important;
+  display: block !important;
+  flex: 0 0 40% !important;
+  width: 40% !important;
+  min-width: 200px !important;
+  max-width: 40% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;
+  align-self: flex-start !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image::before,
+#publications-wrapper .paper-box.floating-card .paper-box-image::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image > div {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  overflow: visible !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: top left !important;
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-text {
+  justify-content: flex-start !important;
+  align-self: flex-start !important;
+  padding-top: 0 !important;
+  flex: 1 1 60% !important;
+  max-width: 60% !important;
+}
+
+@media (max-width: 768px) {
+  #publications-wrapper .paper-box.floating-card .paper-box-image,
+  #publications-wrapper .paper-box.floating-card .paper-box-text {
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
