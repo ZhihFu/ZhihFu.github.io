@@ -140,10 +140,9 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
  # 📝 Publications
 <div id="publications-wrapper">
 <div id="filter-container"></div>
- 
+
 <div class='paper-box floating-card' data-tags="Paper, ACL 2026, CIR, Image Retrieval, Multi-Modification, Code, Project Page"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
 
@@ -153,7 +152,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Paper, CVPR 2026, CIR, Image Retrieval, Robustness, Code, Project Page, Blog"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Project]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know) [[Blog Post (Chinese)]](http://xhslink.com/o/5oVjQ1a3apO) 
@@ -164,7 +163,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Paper, CVPR 2026, CIR, Image Retrieval, Robustness, Code, Project Page, Blog"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Project]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep) [[Blog Post (Chinese)]](http://xhslink.com/o/2Cm9p4DMS1)
@@ -197,7 +196,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div> -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Paper, AAAI 2026, CIR, Image Retrieval, Robustness, Code, Project Page"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Project]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
@@ -232,7 +231,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Paper, Arxiv 2025, CIR, Image Retrieval, Code, Project Page"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
@@ -255,7 +254,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Paper, AAAI 2025, CIR, Image Retrieval, Project Page"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Project]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
@@ -269,7 +268,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Challenge Technical Report <span style="font-size: 0.7 em;"></span>
 ### ("†" denotes project leader, "✉" denotes corresponding author)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Technical Report, CVPR 2026, Challenge 1st, CVR, Video Retrieval, Reasoning, Reranking, Project Page"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
@@ -280,7 +279,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Technical Report, CVPR 2026, Challenge 1st, Egocentric Vision, Reranking, Project Page"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [Coming Soon]
@@ -291,7 +290,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Technical Report, CVPR 2026, Challenge 1st, VQA, Egocentric Vision, Project Page"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [Coming Soon]
@@ -302,7 +301,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Technical Report, CVPR 2026, Challenge 2nd, Egocentric Vision, Reasoning, Project Page"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [Coming Soon]
@@ -313,7 +312,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Technical Report, CVPR 2026, Challenge 3rd, Egocentric Vision, Action Detection, Project Page"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
 
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [Coming Soon]
@@ -322,6 +321,8 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 </div>
 </div>
+
+
 
 
 
@@ -394,9 +395,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 </div>
-
-
-
 
 # 🔖 Patent 
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202411903224.3/detail/abst)
