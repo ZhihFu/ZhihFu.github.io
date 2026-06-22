@@ -138,7 +138,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 # 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
  -->
 # 📝 Publications
-<div class="paper-note">⚓️ denotes first author; ⭐ denotes project leader; 📧 denotes corresponding author.</div>
+<div class="paper-note">⭐ denotes first author; ⚓️ denotes project leader; 📧 denotes corresponding author.</div>
 
 <div id="publications-wrapper">
 <div id="filter-container"></div>
@@ -149,7 +149,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
 
 
-[Zixu Li](https://lee-zixu.github.io)⭐, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
+[Zixu Li](https://lee-zixu.github.io)†, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
 
 </div>
 </div>
@@ -450,7 +450,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .replace(/\*\*\*Zhiheng Fu\*\*\*/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
         .replace(/Zhiheng Fu/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
         .replace(/✉/g, '<span class="author-mail" title="Corresponding author">📧</span>')
-        .replace(/†/g, '<span class="author-star" title="Project leader">⭐</span>');
+        .replace(/&/g, '<span class="author-star" title="Project leader">⭐</span>');
+        .replace(/†/g, '<span class="author-lead" title="Project leader">⚓️</span>');
     });
   }
 
