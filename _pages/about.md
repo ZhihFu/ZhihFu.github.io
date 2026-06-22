@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 <style>
-/* 动态标签和过滤器按钮的预设样式，确保 Label 完美显示 */
 #filter-container {
   margin: 20px 0;
   display: flex;
