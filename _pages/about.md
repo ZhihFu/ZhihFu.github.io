@@ -403,13 +403,12 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   let tagCounts = {};
   let activeTags = new Set();
-
-  paperBoxes.forEach(box => {
+paperBoxes.forEach(box => {
     const tagsAttribute = box.getAttribute('data-tags');
     if (!tagsAttribute) return;
     const tagsList = tagsAttribute.split(',').map(t => t.trim()).filter(t => t);
-
-    const textContainer = box.querySelector('.paper-box-text');
+    
+const textContainer = box.querySelector('.paper-box-text');
     const linksContainer = box.querySelector('.links');
     if (textContainer && !textContainer.querySelector('.badge-container')) {
       const badgeContainer = document.createElement('div');
@@ -420,8 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
         badge.textContent = tag;
         badgeContainer.appendChild(badge);
       });
-
-      const paragraphs = textContainer.querySelectorAll('p');
+const paragraphs = textContainer.querySelectorAll('p');
       if (paragraphs.length >= 2) {
         paragraphs[1].insertAdjacentElement('afterend', badgeContainer);
       } else if (linksContainer) {
@@ -430,8 +428,7 @@ document.addEventListener('DOMContentLoaded', function() {
         textContainer.appendChild(badgeContainer);
       }
     }
-
-    tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
+tagsList.filter(tag => !linkLikeTags.has(tag) && !venueFilterExcludeTags.has(tag)).forEach(tag => tagCounts[tag] = (tagCounts[tag] || 0) + 1);
   });
 
   textContainerLinkButtons();
@@ -464,15 +461,13 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!textContainer || textContainer.querySelector('.paper-link-container')) return;
       const firstParagraph = textContainer.querySelector('p');
       if (!firstParagraph) return;
-
-      const linkContainer = document.createElement('div');
+const linkContainer = document.createElement('div');
       linkContainer.className = 'paper-link-container';
       firstParagraph.querySelectorAll('a').forEach(link => {
         link.classList.add('paper-link-btn');
         linkContainer.appendChild(link);
       });
-
-      if (linkContainer.children.length > 0) {
+if (linkContainer.children.length > 0) {
         const badgeContainer = textContainer.querySelector('.badge-container');
         if (badgeContainer) {
           badgeContainer.insertAdjacentElement('afterend', linkContainer);
@@ -482,8 +477,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   }
-
-  function enrichPaperCards() {
+function enrichPaperCards() {
     paperBoxes.forEach(box => {
       const textContainer = box.querySelector('.paper-box-text');
       if (!textContainer) return;
@@ -491,8 +485,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const titleParagraph = paragraphs[0];
       const authorParagraph = paragraphs[1];
       if (!titleParagraph || !authorParagraph) return;
-
-      const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
+const badgeText = (box.querySelector('.badge')?.textContent || '').trim();
       const venueKey = Object.keys(venueFullNames).find(key => badgeText.includes(key));
       if (venueKey && !textContainer.querySelector('.venue-full-name')) {
         const venue = document.createElement('div');
@@ -500,9 +493,8 @@ document.addEventListener('DOMContentLoaded', function() {
         venue.textContent = venueFullNames[venueKey];
         titleParagraph.insertAdjacentElement('afterend', venue);
       }
-
-      authorParagraph.classList.add('paper-authors');
-      authorParagraph.innerHTML = authorParagraph.innerHTML
+authorParagraph.classList.add('paper-authors');
+authorParagraph.innerHTML = authorParagraph.innerHTML
         .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]\(([^)]+)\)/g, '<a href="$1" class="primary-gradient-text author-self">Zhiheng Fu</a>')
         .replace(/\[\*\*\*Zhiheng Fu\*\*\*\]/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
         .replace(/\*\*\*Zhiheng Fu\*\*\*/g, '<span class="primary-gradient-text author-self">Zhiheng Fu</span>')
@@ -518,17 +510,16 @@ document.addEventListener('DOMContentLoaded', function() {
       const boxTagsString = box.getAttribute('data-tags');
       const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
       const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
+      
+box.classList.remove('hidden');
+box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
 
-      box.classList.remove('hidden');
-      box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
-
-      box.querySelectorAll('.inner-tag-badge').forEach(badge => {
-        badge.classList.toggle('active', activeTags.has(badge.textContent));
+box.querySelectorAll('.inner-tag-badge').forEach(badge => {
+badge.classList.toggle('active', activeTags.has(badge.textContent));
       });
     });
 
-    // 修复原来的 insertBefore(box, document.currentScript) 逻辑引起的 DOM 异常
-    if (activeTags.size > 0) {
+  if (activeTags.size > 0) {
       const sortedBoxes = [...paperBoxes].sort((a, b) => {
         const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
         const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
