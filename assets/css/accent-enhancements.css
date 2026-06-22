@@ -805,4 +805,62 @@ body {
   .blog-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-} 
+}
+
+/* Publications: force image-natural layout and remove left-side gray/backplates.
+   This file is linked directly after main.css, so these overrides take effect even
+   before Jekyll recompiles assets/css/main.scss. */
+#publications-wrapper .paper-box.floating-card {
+  display: flex !important;
+  align-items: flex-start !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image,
+#publications-wrapper .paper-box.floating-card .paper-box-image > div,
+#publications-wrapper .paper-box.floating-card .paper-box-image figure,
+#publications-wrapper .paper-box.floating-card .paper-box-image a {
+  background: transparent !important;
+  background-color: transparent !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  align-self: flex-start !important;
+  overflow: visible !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+#publications-wrapper .paper-box.floating-card .paper-box-image img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 400px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: top left !important;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+@media (min-width: 768px) {
+  #publications-wrapper .paper-box.floating-card .paper-box-image {
+    flex: 0 0 40% !important;
+    width: 40% !important;
+    max-width: 40% !important;
+  }
+
+  #publications-wrapper .paper-box.floating-card .paper-box-text {
+    flex: 1 1 60% !important;
+    max-width: 60% !important;
+  }
+}
+
