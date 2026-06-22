@@ -300,12 +300,10 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!wrapper) return;
 
   const filterContainer = document.getElementById('filter-container');
-  
-  // 核心修复：把容器内所有的子元素（包括标题 h1 和卡片 paper-box）全部抓取出来参与排序
+
   const allElements = Array.from(wrapper.children).filter(el => el.id !== 'filter-container');
   const paperBoxes = allElements.filter(el => el.classList.contains('paper-box'));
 
-  // 1. 记录所有元素最初在 HTML 里的绝对物理顺序
   allElements.forEach((el, index) => {
     el.dataset.originalOrder = String(index);
   });
@@ -325,7 +323,6 @@ document.addEventListener('DOMContentLoaded', function() {
   let tagCounts = {};
   let activeTags = new Set();
 
-  // 解析并生成卡片内部的小标签
   paperBoxes.forEach(box => {
     const tagsAttribute = box.getAttribute('data-tags');
     if (!tagsAttribute) return;
@@ -359,7 +356,6 @@ document.addEventListener('DOMContentLoaded', function() {
   textContainerLinkButtons();
   enrichPaperCards();
 
-  // 生成顶部的过滤按钮
   const sortedTags = Object.keys(tagCounts).sort();
   if (filterContainer) {
     filterContainer.innerHTML = '';
@@ -436,9 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // 核心修复逻辑：重写过滤与排序函数
   function filterPapers() {
-    // 1. 设置卡片的透明度与高亮状态
     paperBoxes.forEach(box => {
       const boxTagsString = box.getAttribute('data-tags');
       const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
@@ -451,35 +445,27 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-    // 2. 如果有勾选标签：匹配的卡片“上移”到当前属于它的那个大标题紧随其后的位置
     if (activeTags.size > 0) {
-      // 找到当前处于哪两个大标题的区间内，并根据匹配状态对卡片重新排序
       const sortedElements = [...allElements].sort((a, b) => {
         const aIsBox = a.classList.contains('paper-box');
         const bIsBox = b.classList.contains('paper-box');
-        
-        // 如果其中有一个是标题，保留它们原本的相对先后顺序
+
         if (!aIsBox || !bIsBox) {
           return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
         }
-        
-        // 如果两个都是论文卡片
+
         const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
         const bTags = (b.getAttribute('data-tags') || '').split(',').map(t => t.trim());
         const aMatched = Array.from(activeTags).every(tag => aTags.includes(tag));
         const bMatched = Array.from(activeTags).every(tag => bTags.includes(tag));
-        
-        // 如果一个匹配一个不匹配，匹配的排在前面
+
         if (aMatched !== bMatched) return aMatched ? -1 : 1;
-        
-        // 如果匹配状态一样，恢复原先的物理顺序
+
         return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
       });
       
-      // 按新顺序重新渲染 DOM
       sortedElements.forEach(el => wrapper.appendChild(el));
     } else {
-      // 3. 取消勾选（重置状态）：严格按照最初未被破坏的物理顺序依次 append，标题和卡片完美归位
       allElements
         .sort((a, b) => Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder))
         .forEach(el => wrapper.appendChild(el));
