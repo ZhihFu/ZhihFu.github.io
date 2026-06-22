@@ -293,7 +293,7 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 </div>
 </div>
 
-JavaScript
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.getElementById('publications-wrapper');
