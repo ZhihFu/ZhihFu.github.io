@@ -551,7 +551,7 @@ body {
 
 #publications-wrapper .author-self,
 #publications-wrapper .author-self:visited {
-      background: linear-gradient(90deg, #a855f7 0%, #ec4899 50%, #fb7185 100%) !important;
+      background: linear-gradient(90deg, #ec4899 0%, #f43f5e 50%, #fb7185 100%) !important;
       -webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
       background-clip: text !important;
