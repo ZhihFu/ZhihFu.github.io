@@ -551,13 +551,13 @@ body {
 
 #publications-wrapper .author-self,
 #publications-wrapper .author-self:visited {
-  background: linear-gradient(90deg, #7c3aed 0%, #db2777 45%, #FE667B 100%) !important;
+  background: linear-gradient(90deg, #a855f7 0%, #ec4899 50%, #fb7185 100%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
   font-weight: 800 !important;
   text-decoration: none !important;
-  filter: saturate(1.25) contrast(1.08);
+  filter: saturate(1.35) contrast(1.05);
 }
 
 #publications-wrapper .badge-container {
