@@ -8,6 +8,88 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+/* 动态标签和过滤器按钮的预设样式，确保 Label 完美显示 */
+#filter-container {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid #e1e4e8;
+  border-radius: 20px;
+  background-color: #f6f8fa;
+  color: #586069;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter-btn:hover {
+  background-color: #eaecef;
+  color: #24292e;
+}
+.filter-btn.active {
+  background: linear-gradient(135deg, #38ef7d, #11998e);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(17, 153, 142, 0.3);
+}
+.badge-container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.inner-tag-badge {
+  font-size: 0.75em;
+  padding: 2px 8px;
+  background-color: #f1f3f5;
+  color: #495057;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  transition: all 0.2s ease;
+}
+.inner-tag-badge.active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-color: #a5d6a7;
+  font-weight: bold;
+}
+.venue-full-name {
+  font-size: 0.85em;
+  color: #6a737d;
+  font-style: italic;
+  margin: 4px 0;
+}
+.paper-link-container {
+  margin-top: 8px;
+}
+.paper-link-btn {
+  font-size: 0.85em;
+  padding: 2px 8px;
+  margin-right: 4px;
+  background-color: #fff;
+  border: 1px solid #0366d6;
+  color: #0366d6 !important;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+.paper-link-btn:hover {
+  background-color: #0366d6;
+  color: #fff !important;
+}
+.author-self {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.floating-card {
+  transition: opacity 0.3s ease;
+}
+</style>
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -30,96 +112,145 @@ I'm currently an Undergrad student in the [School of Software](https://www.sc.sd
 
 Here's the link to our repo! Feel free to check it out. Any feedback or support are always welcome. Thanks for taking a look! ✨
 <br>
-<table style="width:100%; border:none; text-align:center; background-color:transparent;">
+<table style="width:100%; border:none; text-align:center; background-color:transparent; border-collapse: separate; border-spacing: 0 15px;">
   <tr style="border:none;">
-   <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/tema-logo.png" alt="TEMA" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>TEMA (ACL'26)</b><br>
-      <span style="font-size: 0.9em;">
-       <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> |   
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/tema-logo.png" alt="TEMA" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/airknow-logo.png" alt="Air-Know" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+  </tr>
+  <tr style="border:none;">
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>TEMA (ACL'26)</b>
+    </td>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>ConeSep (CVPR'26)</b>
+    </td>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>Air-Know (CVPR'26)</b>
+    </td>
+  </tr>
+  <tr style="border:none;">
+    <td style="border:none; vertical-align:top; padding-bottom:20px;">
+      <span style="font-size: 0.9em; display:block; min-height:40px;">
+        <a href="https://arxiv.org/abs/2604.21806" target="_blank">Paper</a> |   
         <a href="https://lee-zixu.github.io/TEMA.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/Lee-zixu/ACL26-TEMA" target="_blank">Code</a>     
       </span>
     </td>
-   <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/consep-logo.png" alt="ConeSep" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ConeSep (CVPR'26)</b><br>
-      <span style="font-size: 0.9em;">
-       <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
+    <td style="border:none; vertical-align:top; padding-bottom:20px;">
+      <span style="font-size: 0.9em; display:block; min-height:40px;">
+        <a href="https://arxiv.org/abs/2604.20358" target="_blank">Paper</a> | 
         <a href="https://lee-zixu.github.io/ConeSep.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/lee-zixu/ConeSep" target="_blank">Code</a> |
-       <a href="http://xhslink.com/o/2Cm9p4DMS1" target="_blank">Blog Post (Chinese)</a>
+        <a href="https://github.com/lee-zixu/ConeSep" target="_blank">Code</a> |<br>
+        <a href="http://xhslink.com/o/2Cm9p4DMS1" target="_blank">Blog Post (Chinese)</a>
       </span>
     </td>
-     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/airknow-logo.png" alt="Air-Know" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>Air-Know (CVPR'26)</b><br>
-      <span style="font-size: 0.9em;">
-       <a href="https://arxiv.org/abs/2604.19386" target="_blank">Paper</a> | 
+    <td style="border:none; vertical-align:top; padding-bottom:20px;">
+      <span style="font-size: 0.9em; display:block; min-height:40px;">
+        <a href="https://arxiv.org/abs/2604.19386" target="_blank">Paper</a> | 
         <a href="https://zhihfu.github.io/Air-Know.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/zhihfu/Air-Know" target="_blank">Code</a> |
-       <a href="http://xhslink.com/o/5oVjQ1a3apO" target="_blank">Blog Post (Chinese)</a>
+        <a href="https://github.com/zhihfu/Air-Know" target="_blank">Code</a> |<br>
+        <a href="http://xhslink.com/o/5oVjQ1a3apO" target="_blank">Blog Post (Chinese)</a>
       </span>
     </td>
-      </tr>
+  </tr>
+
   <tr style="border:none;">
-     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>HABIT (AAAI'26)</b><br>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+  </tr>
+  <tr style="border:none;">
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>HABIT (AAAI'26)</b>
+    </td>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>ReTrack (AAAI'26)</b>
+    </td>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>INTENT (AAAI'26)</b>
+    </td>
+  </tr>
+  <tr style="border:none;">
+    <td style="border:none; vertical-align:top; padding-bottom:20px;">
       <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2604.18037" target="_blank">Paper</a> | 
+        <a href="https://arxiv.org/abs/2604.18037" target="_blank">Paper</a> |  
         <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> 
       </span>
     </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/retrack-logo.png" alt="ReTrack" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ReTrack (AAAI'26)</b><br>
+    <td style="border:none; vertical-align:top; padding-bottom:20px;">
       <span style="font-size: 0.9em;">
-        <a href="http://arxiv.org/abs/2604.17898" target="_blank">Paper</a> | 
+        <a href="http://arxiv.org/abs/2604.17898" target="_blank">Paper</a> |  
         <a href="https://lee-zixu.github.io/ReTrack.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/Lee-zixu/ReTrack" target="_blank">Code</a> 
       </span>
     </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>INTENT (AAAI'26)</b><br>
+    <td style="border:none; vertical-align:top; padding-bottom:20px;">
       <span style="font-size: 0.9em;">
-        <a href="https://arxiv.org/abs/2604.18051" target="_blank">Paper</a> | 
+        <a href="https://arxiv.org/abs/2604.18051" target="_blank">Paper</a> |  
         <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Project</a> | 
         <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> 
       </span>
-    </td>  
+    </td>
+  </tr>
+
+  <tr style="border:none;">
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px;">
+    </td>
+    <td style="width:30%; border:none; vertical-align:bottom; padding-top:20px;">
+      <img src="../images/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px;">
+    </td>
   </tr>
   <tr style="border:none;">
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>HUD (ACM MM'25)</b><br>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>HUD (ACM MM'25)</b>
+    </td>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>OFFSET (ACM MM'25)</b>
+    </td>
+    <td style="border:none; vertical-align:top; padding:5px 0;">
+      <b>ENCODER (AAAI'25)</b>
+    </td>
+  </tr>
+  <tr style="border:none;">
+    <td style="border:none; vertical-align:top;">
       <span style="font-size: 0.9em;">
-        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> | 
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Project</a> |  
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> |  
         <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
       </span>
     </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>OFFSET (ACM MM'25)</b><br>
+    <td style="border:none; vertical-align:top;">
       <span style="font-size: 0.9em;">
-        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
+        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Project</a> |  
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> |  
         <a href="https://dl.acm.org/doi/10.1145/3746027.3755366" target="_blank">Paper</a>
       </span>
     </td>
-    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
-      <img src="../images/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>ENCODER (AAAI'25)</b><br>
+    <td style="border:none; vertical-align:top;">
       <span style="font-size: 0.9em;">
-        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Project</a> | 
-        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> | 
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Project</a> |  
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> |  
         <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a>
       </span>
     </td>
-
   </tr>
 </table>
 
@@ -134,9 +265,6 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 - *2025.07.05*: &nbsp;🎉🎉 Two papers have been accepted by **ACM MM 2025**! Congratulations to our co-authors!
 - *2024.12.10*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**! Congratulations to our co-authors!
 
-<!--
-# 📝 Selected Publications <span style="font-size: 0.7 em;">[[Full Publications Here]](/publications/)</span>
- -->
 # 📝 Publications
 <div class="paper-note">⚓️ denotes project leader; 📧 denotes corresponding author.</div>
 
@@ -145,204 +273,123 @@ Here's the link to our repo! Feel free to check it out. Any feedback or support 
 
 <h1 id="challenge-technical-report">📝 Selected Publications</h1>
 
-<div class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding">
+<div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 **TEMA: Anchor the Image, Follow the Text for Multi-Modification Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.21806) [[Project]](https://lee-zixu.github.io/TEMA.github.io/) [[Code]](https://github.com/Lee-zixu/ACL26-TEMA)
 
-
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Yongqi Li](https://liyongqi67.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
 </div>
 </div>
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, First Author, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, First Author, CCF A, Multimodal Understanding, Robustness">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/AirKnow-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 **Air-Know: Arbiter-Calibrated Knowledge-Internalizing Robust Network for Composed Image Retrieval** [[Paper]](http://arxiv.org/abs/2604.19386) [[Project]](https://zhihfu.github.io/Air-Know.github.io/) [[Code]](https://github.com/ZhihFu/Air-Know)
 
 [***Zhiheng Fu***](https://zhihfu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, Qianyun Yang, Shiqi Zhang, [Zhiwei Chen](https://zivchen-ty.github.io/), [Zixu Li](https://lee-zixu.github.io)†
-
 </div>
 </div>
 
-
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Multimodal Understanding, Robustness">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/ConeSep-CVPR26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 **ConeSep: Cone-based Robust Noise-Unlearning Compositional Network for Composed Image Retrieval** [[Paper]](https://arxiv.org/abs/2604.20358) [[Project]](https://lee-zixu.github.io/ConeSep.github.io/) [[Code]](https://github.com/Lee-zixu/ConeSep)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [Mingyu Zhang](https://zh-mingyu.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
 </div>
 </div>
 
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ReTrack-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> 
-
-**ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval** [*Coming Soon*]
-
-[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), Guozhi Qiu, [***Zhiheng Fu***](https://zhihfu.github.io), [Meng Liu](https://mengliu1991.github.io)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/HABIT-AAAI26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding, Robustness">
+<div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-**HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval** [*Coming Soon*]
-
-[Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zhiwei Chen](https://zivchen-ty.github.io/), Shiqi Zhang, [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), [Yinwei Wei](https://weiyinwei.github.io)
-
-</div>
-</div> -->
-
-
-<div class='paper-box floating-card' data-tags="AAAI 2026, CCF A, Multimodal Understanding, Robustness"><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/2026-INTENT-AAAI26.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 **INTENT: Invariance and Discrimination-aware Noise Mitigation for Robust Composed Image Retrieval** [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/39181) [[Project]](https://zivchen-ty.github.io/INTENT.github.io/) [[Code]](https://github.com/ZivChen-Ty/INTENT)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io)†, [Jiale Huang](https://arcadiadream.github.io/HJL.github.io/), [Qinlei Huang](https://windlikeo.github.io/HQL.github.io/), [Yinwei Wei](https://weiyinwei.github.io)
-
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/OFFSET-MM25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="Preprint, Multimodal Understanding">
+<div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-**OFFSET: Segmentation-based Focus Shift Revision for Composed Image Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755366) [[Website]](https://zivchen-ty.github.io/OFFSET.github.io/)
-
-[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [***Zhiheng Fu***](https://ZhihFu.github.io/),  [Xuemeng Song](https://xuemengsong.github.io/), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/HUD-MM25.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**HUD: Hierarchical Uncertainty-Aware Disambiguation Network for Composed Video Retrieval** [[PDF]](https://dl.acm.org/doi/10.1145/3746027.3755445) [[Website]](https://zivchen-ty.github.io/HUD.github.io/)
-
-[Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Zixu Li](https://lee-zixu.github.io),  [***Zhiheng Fu***](https://ZhihFu.github.io/),  [Haokun Wen](https://haokunwen.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
-
-</div>
-</div> -->
-
-
-
-
-
-<div class='paper-box floating-card' data-tags="Preprint, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='/images/FineCIR.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 **FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval** [[PDF]](https://arxiv.org/abs/2503.21309) [[Project]](https://sdu-l.github.io/FineCIR.github.io/)  [[Code]](https://github.com/SDU-L/FineCIR) 
 
 [Zixu Li](https://lee-zixu.github.io),  [***Zhiheng Fu***](https://zhihfu.github.io),  [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉,  [Zhiwei Chen](https://zivchen-ty.github.io/),  [Haokun Wen](https://haokunwen.github.io/),  [Liqiang Nie](https://liqiangnie.github.io/index.html)
 </div>
 </div>
 
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='/images/PAIR-ICASSP25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="AAAI 2025, CCF A, Multimodal Understanding">
+<div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-  
-**PAIR: Complementarity-guided Disentanglement for Composed Image Retrieval** [[PDF]](https://ieeexplore.ieee.org/abstract/document/10888153) [[Website]](https://zhihfu.github.io/PAIR.github.io/) [[Code]](https://drive.google.com/drive/folders/1aVhi7SkZAXCP8bnoD2fQT15Ozrq75xLU) 
-
-[***Zhiheng Fu***](https://zhihfu.github.io), [Zixu Li](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), Chunxiao Wang, [Xuemeng Song](https://xuemengsong.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-</div>
-</div> -->
-
-
-
-
-
-<div class='paper-box floating-card' data-tags="AAAI 2025, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/ENCODER-AAAI25.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 **ENCODER: Entity Mining and Modification Relation Binding for Composed Image Retrieval** [[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/32541) [[Project]](https://sdu-l.github.io/ENCODER.github.io/) [[Code]](https://drive.google.com/drive/u/2/folders/1QuBQVIybLwn-qFSORhpBsnXy6ebhtNr3?usp=sharing) 
 
 [Zixu Li](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [Haokun Wen](https://haokunwen.github.io/), [***Zhiheng Fu***](https://ZhihFu.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili)
-
 </div>
 </div>
-
 
 <h1 id="challenge-technical-report">📝 Challenge Technical Report</h1>
 
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st</div><img src='images/R3-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
-
 **R<sup>3</sup>: Composed Video Retrieval via Reasoning-Guided Recalling and Re-ranking** [[Technical Report]](https://arxiv.org/abs/2606.01113)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [***Zhiheng Fu***](https://zhihfu.github.io),  [Zhiwei Chen](https://zivchen-ty.github.io/), [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
 </div>
 </div>
 
-
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/TempRet-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
-
 **TempRet: Temporal Enhancement and Two-Stage Reranking for CVPR 2026 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24470)
 
 [Zixu Li](https://lee-zixu.github.io), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io),  Xiaowei Zhu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
 </div>
 </div>
 
-
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 1st🏅</div><img src='images/EgoAdapt-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
-
 **EgoAdapt: A Multi-Scene Egocentric Adaptation Method for CVPR 2026 HD-EPIC VQA Challenge** [[Technical Report]](https://arxiv.org/abs/2605.24500)
 
 [Zhiwei Chen](https://zivchen-ty.github.io/), [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Zixu Li](https://lee-zixu.github.io)†, [***Zhiheng Fu***](https://zhihfu.github.io),  Guozhi Qiu, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
 </div>
 </div>
 
-
-<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, CCF A, Challenge, Egocentric Vision Reasoning">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 2nd🥈</div><img src='images/OmniEgo-R2-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
-
 **OmniEgo-R<sup>2</sup>: A Routed Reasoning Framework for the 1st Cross-Domain EgoCross Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24481)
 
 [Zixu Li](https://lee-zixu.github.io), [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io),  Wenbo Wang, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
-</div>  
+</div> 
 </div>
 
-
-<div class='paper-box floating-card' data-tags="CVPR 2026, First Author, CCF A, Challenge, Egocentric Vision Reasoning"><div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box floating-card' data-tags="CVPR 2026, First Author, CCF A, Challenge, Egocentric Vision Reasoning">
+<div class='paper-box-image'><div><div class="badge">CVPR 2026 Challenge 3rd🥉</div><img src='images/EgoAction-CVPRW26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> 
-
 **EgoAction: Egocentric Action Composition with Reliability-Aware Temporal Fusion for the EPIC-KITCHENS Action Detection Challenge at CVPR 2026** [[Technical Report]](https://arxiv.org/abs/2605.24496)
 
 [***Zhiheng Fu***](https://zhihfu.github.io),  [Zixu Li](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), Fangxu Liu, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)✉, [Weili Guan](https://faculty.hitsz.edu.cn/guanweili), [Liqiang Nie](https://liqiangnie.github.io/index.html)
-
 </div>
 </div>
 
-
-
-
-
-<script>
+</div> <script>
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.getElementById('publications-wrapper');
   if (!wrapper) return;
 
   const filterContainer = document.getElementById('filter-container');
-      const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
-      const sectionHeadings = Array.from(wrapper.querySelectorAll('h1, h2, h3')).filter(h => h.id === 'challenge-technical-report' || /Publications|Challenge/.test(h.textContent));
-      paperBoxes.forEach((box, index) => {
-      box.dataset.originalOrder = String(index + 10);
-    });
-    sectionHeadings.forEach((heading, index) => {
-      heading.dataset.originalOrder = String(index + 1);
-    });
+  const paperBoxes = Array.from(wrapper.querySelectorAll('.paper-box'));
+  const sectionHeadings = Array.from(wrapper.querySelectorAll('h1, h2, h3')).filter(h => h.id === 'challenge-technical-report' || /Publications|Challenge/.test(h.textContent));
+  
+  paperBoxes.forEach((box, index) => {
+    box.dataset.originalOrder = String(index + 10);
+  });
+  sectionHeadings.forEach((heading, index) => {
+    heading.dataset.originalOrder = String(index + 1);
+  });
+
   const linkLikeTags = new Set(['Paper', 'PDF', 'Project', 'Project Page', 'Code', 'Blog', 'Website', 'Technical Report']);
   const venueFilterExcludeTags = new Set(['ACL 2026', 'CVPR 2026', 'AAAI 2026', 'ACM MM 2025', 'AAAI 2025', 'Arxiv 2025', 'ICASSP 2025', 'ICASSP 2026', 'TKDE 2026', 'TIP 2026']);
   const venueFullNames = {
@@ -473,22 +520,15 @@ document.addEventListener('DOMContentLoaded', function() {
       const boxTags = boxTagsString ? boxTagsString.split(',').map(t => t.trim()) : [];
       const isMatched = activeTags.size === 0 || Array.from(activeTags).every(activeTag => boxTags.includes(activeTag));
 
-      // Keep original labels/buttons intact: no wrapper-level flex/order reflow.
-      // Move matched cards before the first non-matched card in the DOM, then dim non-matches.
       box.classList.remove('hidden');
-      box.style.order = '';
-      box.style.opacity = activeTags.size > 0 && !isMatched ? '0.38' : '1';
+      box.style.opacity = activeTags.size > 0 && !isMatched ? '0.25' : '1';
 
       box.querySelectorAll('.inner-tag-badge').forEach(badge => {
         badge.classList.toggle('active', activeTags.has(badge.textContent));
       });
     });
 
-    sectionHeadings.forEach(heading => {
-      heading.style.order = '';
-      heading.style.opacity = '1';
-    });
-
+    // 修复原来的 insertBefore(box, document.currentScript) 逻辑引起的 DOM 异常
     if (activeTags.size > 0) {
       const sortedBoxes = [...paperBoxes].sort((a, b) => {
         const aTags = (a.getAttribute('data-tags') || '').split(',').map(t => t.trim());
@@ -498,23 +538,22 @@ document.addEventListener('DOMContentLoaded', function() {
         if (aMatched !== bMatched) return aMatched ? -1 : 1;
         return Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder);
       });
-      sortedBoxes.forEach(box => wrapper.insertBefore(box, document.currentScript));
+      sortedBoxes.forEach(box => wrapper.appendChild(box));
     } else {
-      [...paperBoxes]
+      paperBoxes
         .sort((a, b) => Number(a.dataset.originalOrder) - Number(b.dataset.originalOrder))
-        .forEach(box => wrapper.insertBefore(box, document.currentScript));
+        .forEach(box => wrapper.appendChild(box));
     }
   }
 });
 </script> 
-
-</div>
 
 # 🔖 Patent 
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 - 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510274983.6/detail/abst)
 - 一种基于分割焦点偏移修正的组合图像检索方法及系统 - 公开号: *CN120144812A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510143920.7/detail/abst)
 - 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510142418.4/detail/abst)
+
 # 🏆 Honors and Awards
 - *2025.10*, National Scholarship (国家奖学金).
 - *2025.10*, **Grand Prize** in the CICAS Smart Power Scenario Competition.
@@ -529,17 +568,4 @@ document.addEventListener('DOMContentLoaded', function() {
 - 3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
 
 # 📖 Educations
-- *2022.09 - Present*, Undergrad in the School of Software, Shandong University. 
-
-# 📃 Services
-- Serving as a reviewer for AAAI, IJCNN.
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+- *2022.09 - Present*, Undergrad in the School of Software
