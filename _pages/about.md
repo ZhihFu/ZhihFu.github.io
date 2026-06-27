@@ -101,7 +101,7 @@ redirect_from:
 
 Hi, I am Zhiheng Fu (付志恒).
 =====
-I'm currently an Undergrad student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm). My research interests include *multimedia computing, information retrieval*.
+I'm currently an Undergrad student in the [School of Software](https://www.sc.sdu.edu.cn), [Shandong University](https://www.sdu.edu.cn), under the supervision of Prof. [Liqiang Nie](https://liqiangnie.github.io/index.html) and Prof. [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm), working closely with Dr. [Zixu Li](https://lee-zixu.github.io). My research interests include *large multimodal models, visual reasoning, and robust learning*.
 
 > 🤗 All the major projects I involved in have been open-sourced. We invite you to explore our projects, share your feedback, and connect with us for further discussion.
 >
