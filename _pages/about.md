@@ -679,23 +679,6 @@ Hi, I am Zhiheng Fu (付志恒).
       <p>My research follows the trajectory of <strong>from multimodal understanding to evidence-driven large model evaluation</strong>. On the model side, I study fine-grained visual-textual semantic fusion, composed image/video understanding, robust noise mitigation, knowledge calibration, and intent-aware representation learning, with representative works including <strong>Air-Know</strong>, <strong>TEMA</strong>, <strong>ConeSep</strong>, <strong>INTENT</strong>, <strong>FineCIR</strong>, and <strong>ENCODER</strong>. On the evaluation side, I have contributed to long-form video and egocentric vision reasoning systems, including the CVPRW challenge technical reports <strong>R<sup>3</sup></strong>, <strong>TempRet</strong>, <strong>EgoAdapt</strong>, <strong>OmniEgo-R<sup>2</sup></strong>, and <strong>EgoAction</strong>.</p>
       <p>Beyond publications, I actively participate in open-source research and challenge-driven system building. I have led or contributed to projects accepted by <strong>ACL, CVPR, AAAI</strong>, and related workshops, and I have been a core member of teams that won champion, runner-up, and third-place awards in multiple CVPR 2026 challenges. My work has also been recognized by the <strong>National Scholarship</strong> and the <strong>Grand Prize</strong> in the CICAS Smart Power Scenario Competition.</p>
     </div>
-    <div class="research-map" id="research-map">
-      <div class="research-map-caption">From Multimodal Understanding to Evidence-driven Large Model Evaluation</div>
-      <div class="research-lane-label orange">Representation Optimization and Algorithm Design for Multimodal Understanding</div>
-      <div class="research-lane top-lane">
-        <div class="research-node orange"><div class="node-title">Multimodal Semantic Fusion</div><div class="node-desc">Designing entity-attribute-relation alignment algorithms to optimize cross-modal semantic interaction structures.</div><div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a></div></div>
-        <div class="research-node orange"><div class="node-title">Complex-scene Intent Feature Disentanglement</div><div class="node-desc">Developing robust denoising and feature extraction algorithms for complex noise and intent distortion.</div><div class="node-papers"><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div></div>
-        <div class="research-node orange"><div class="node-title">Attribute-aware Efficient Representation</div><div class="node-desc">Building lightweight yet accurate representation learning with attribute-neighborhood topology and acceleration strategies.</div><div class="node-papers"><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div></div>
-      </div>
-      <div class="research-arrow">From Multimodal Understanding to Evidence-Driven Evaluation of Large Models</div>
-      <div class="research-lane bottom-lane">
-        <div class="research-node blue"><div class="node-title">Evidence-driven Hallucination Diagnosis and Disambiguation</div><div class="node-desc">Constructing multimodal external evidence chains to evaluate and mitigate model uncertainty and hallucination.</div><div class="node-papers"><a class="node-paper-link" href="#paper-r3">R<sup>3</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div></div>
-        <div class="research-node blue"><div class="node-title">Trustworthy Knowledge Calibration</div><div class="node-desc">Building robust calibration frameworks for trustworthy alignment of multimodal model outputs.</div><div class="node-papers"><a class="node-paper-link" href="#paper-airknow">Air-Know [CVPR 2026]</a><a class="node-paper-link" href="#paper-conesep">ConeSep [CVPR 2026]</a></div></div>
-        <div class="research-node blue"><div class="node-title">Fine-grained Evaluation Benchmark Construction</div><div class="node-desc">Constructing fine-grained multimodal benchmarks and systems for complex contextual scenarios.</div><div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a></div></div>
-      </div>
-      <div class="research-lane-label blue">Diagnostic Frameworks and Benchmark Evaluation for Trustworthy Large Models</div>
-    </div>
-  </div>
 
   <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
     <div class="research-intro">
