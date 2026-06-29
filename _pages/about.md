@@ -703,26 +703,7 @@ Hi, I am Zhiheng Fu (付志恒).
       <p>我的研究围绕“<strong>从多模态理解到证据驱动的大模型评测</strong>”这一主线展开：一方面，我关注细粒度视觉-语言语义融合、组合式图文/视频理解、鲁棒噪声抑制、知识校准与意图感知表征学习，代表工作包括 <strong>Air-Know</strong>、<strong>TEMA</strong>、<strong>ConeSep</strong>、<strong>INTENT</strong>、<strong>FineCIR</strong> 与 <strong>ENCODER</strong>；另一方面，我参与长视频理解、第一视角视觉推理与多模态评测系统构建，相关技术报告包括 <strong>R<sup>3</sup></strong>、<strong>TempRet</strong>、<strong>EgoAdapt</strong>、<strong>OmniEgo-R<sup>2</sup></strong> 与 <strong>EgoAction</strong>。</p>
       <p>除学术论文外，我也积极参与开源研究与挑战赛系统建设。相关工作发表于 <strong>ACL、CVPR、AAAI</strong> 及其 workshop，并作为核心成员参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关经历曾获<strong>国家奖学金</strong>与 CICAS 智能电力场景竞赛<strong>特等奖</strong>等荣誉。</p>
     </div>
-    <div class="research-map">
-      <div class="research-map-caption">从多模态理解到证据驱动的大模型评测</div>
-      <div class="research-lane-label orange">面向多模态理解的表征优化与算法设计</div>
-      <div class="research-lane top-lane">
-        <div class="research-node orange"><div class="node-title">多模态融合语义理解</div><div class="node-desc">设计实体-属性-关系对齐算法，优化跨模态语义交互结构。</div><div class="node-papers"><a class="node-paper-link" href="#paper-encoder">ENCODER [AAAI 2025]</a><a class="node-paper-link" href="#paper-temp-ret">TempRet [CVPRW 2026]</a></div></div>
-        <div class="research-node orange"><div class="node-title">复杂场景意图特征解耦</div><div class="node-desc">针对复杂噪声与意图畸变，设计鲁棒的去噪与特征提取算法。</div><div class="node-papers"><a class="node-paper-link" href="#paper-intent">INTENT [AAAI 2026]</a><a class="node-paper-link" href="#paper-egoaction">EgoAction [CVPRW 2026]</a></div></div>
-        <div class="research-node orange"><div class="node-title">属性感知高效表征</div><div class="node-desc">基于属性邻域拓扑与加速策略，实现轻量化高精度的表征学习。</div><div class="node-papers"><a class="node-paper-link" href="#paper-finecir">FineCIR [Preprint]</a><a class="node-paper-link" href="#paper-omniego">OmniEgo-R<sup>2</sup> [CVPRW 2026]</a></div></div>
-      </div>
-      <div class="research-arrow">从多模态理解到证据驱动的大模型评测</div>
-      <div class="research-lane bottom-lane">
-        <div class="research-node blue"><div class="node-title">证据驱动的幻觉诊断与消歧</div><div class="node-desc">构建多模态外部证据链，评估并消除模型的不确定性与幻觉。</div><div class="node-papers"><a class="node-paper-link" href="#paper-r3">R<sup>3</sup> [CVPRW 2026]</a><a class="node-paper-link" href="#paper-egoadapt">EgoAdapt [CVPRW 2026]</a></div></div>
-        <div class="research-node blue"><div class="node-title">可信知识校准</div><div class="node-desc">构建鲁棒校准框架，实现多模态模型输出的可信对齐。</div><div class="node-papers"><a class="node-paper-link" href="#paper-airknow">Air-Know [CVPR 2026]</a><a class="node-paper-link" href="#paper-conesep">ConeSep [CVPR 2026]</a></div></div>
-        <div class="research-node blue"><div class="node-title">细粒度评测基准构建</div><div class="node-desc">针对复杂上下文场景，构建细粒度多模态评测基准与系统。</div><div class="node-papers"><a class="node-paper-link" href="#paper-tema">TEMA [ACL 2026 Main]</a></div></div>
-      </div>
-      <div class="research-lane-label blue">面向可信大模型的诊断框架与基准评测</div>
-    </div>
-  </div>
-</div>
-
-<a class="roadmap-back-btn" id="roadmap-back-btn" href="#research-map" aria-label="Back to research roadmap"><span class="i18n-en-inline">↩ Back to Roadmap</span><span class="i18n-zh-inline">↩ 返回研究路线图</span></a>
+  
 
 <div class="open-science-note">
   <div class="i18n-en"><p>I am a member of the Intelligent Media Research Center (iLearn). I believe open-source research makes multimodal learning more reproducible and collaborative. My major projects and our lab projects are open-source; please visit <a href="https://github.com/iLearn-Lab">iLearn Lab</a> and feel free to share your valuable feedback.</p></div>
@@ -1187,11 +1168,11 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 </div>
-# 🔖 Patent 
+<!-- # 🔖 Patent 
 - 基于实体挖掘和修改关系绑定的组合图像检索方法及系统 - 公开号: *CN120067365A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202411903224.3/detail/abst)
 - 基于自适应中间粒度聚合网络的组合图像检索方法及系统 - 公开号: *CN120104822A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510274983.6/detail/abst)
 - 一种基于分割焦点偏移修正的组合图像检索方法及系统 - 公开号: *CN120144812A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510143920.7/detail/abst)
-- 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510142418.4/detail/abst)
+- 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510142418.4/detail/abst) -->
 
 # 🏆 Honors and Awards
 - *2025.10*, National Scholarship (国家奖学金).
@@ -1208,3 +1189,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # 📖 Educations
 - *2022.09 - Present*, Undergrad in the School of Software
+
+
