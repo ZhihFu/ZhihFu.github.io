@@ -1190,4 +1190,15 @@ document.addEventListener('DOMContentLoaded', function() {
 # 📖 Educations
 - *2022.09 - Present*, Undergrad in the School of Software
 
+# 📃 Services
+- Serving as a reviewer for AAAI, IJCNN.
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
