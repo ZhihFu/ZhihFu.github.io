@@ -1175,7 +1175,9 @@ document.addEventListener('DOMContentLoaded', function() {
 - *2022.09 - Present*, Undergrad in the School of Software
 
 # 📃 Services
-- Serving as a reviewer for AAAI, IJCNN.
+Serving as reviewer for:
+- Conference: AAAI, IJCNN.
+- Journal: PR.
 
 
 <br>
