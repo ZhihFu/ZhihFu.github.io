@@ -762,6 +762,10 @@ Hi, I am Zhiheng Fu (付志恒).
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <div class="news-card">
+      <div class="news-date">2026.07.10</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（LightAIR）被 <strong>ACM MM 2026</strong> 接收！祝贺所有合作者！</span></div>
+    </div>
+    <div class="news-card">
       <div class="news-date">2026.06.02</div>
       <div class="news-text">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the Reasoned-Aware Composed Video Retrieval (CoVR-R) Challenge at the VidLLMs Workshop @ CVPR 2026! Congratulations to all members!</div>
     </div>
@@ -807,6 +811,15 @@ Hi, I am Zhiheng Fu (付志恒).
 <div id="filter-container"></div>
 
 <h1 style="font-size: 1.25em; font-weight: bold; margin-top: 35px; margin-bottom: 15px; border-bottom: 1px solid #eaecef; padding-bottom: 5px;">📝 Selected Publications</h1>
+
+<div id='paper-lightair' class='paper-box floating-card' data-tags="ACM MM 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/LightAIR-MM26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search** [[Coming Soon]](#)
+
+[Yulun Zhang](https://rainy-london.github.io/), [Zixu Li](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
+</div>
+</div> 
 
 <div id='paper-tema' class='paper-box floating-card' data-tags="ACL 2026, CCF A, Multimodal Understanding">
 <div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/TEMA-ACL26.png' alt="sym" width="100%"></div></div>
