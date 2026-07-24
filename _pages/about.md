@@ -694,7 +694,7 @@ Hi, I am Zhiheng Fu (付志恒).
   <div class="i18n-zh"><p>我隶属于智能媒体研究中心 (iLearn)，并相信开源研究能够提升多模态学习的可复现性与协作性。我主要参与的项目与实验室项目持续开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提出宝贵意见。</p></div>
 </div>
 
-<div class="opensource-section" id="open-source-projects">
+<!-- <div class="opensource-section" id="open-source-projects">
   <div class="section-kicker"><span class="i18n-en-inline">💻 Open Science</span><span class="i18n-zh-inline">💻 开放科学</span></div>
   <div class="opensource-title"><span class="i18n-en-inline">Projects</span><span class="i18n-zh-inline">项目主页</span></div>
   <p class="opensource-subtitle i18n-en">Below are representative project pages and repositories from my recent works. Feedback, issues, and pull requests are warmly welcome.</p>
@@ -755,7 +755,7 @@ Hi, I am Zhiheng Fu (付志恒).
       <div class="opensource-card-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="news-section" id="news">
   <div class="section-kicker"><span class="i18n-en-inline">🔥 Updates</span><span class="i18n-zh-inline">🔥 最新动态</span></div>
