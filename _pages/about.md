@@ -762,6 +762,10 @@ Hi, I am Zhiheng Fu (付志恒).
   <div class="news-title"><span class="i18n-en-inline">News</span><span class="i18n-zh-inline">新闻动态</span></div>
   <div class="news-grid">
     <div class="news-card">
+      <div class="news-date">2026.07.23</div>
+      <div class="news-text"><span class="i18n-en-inline">🎉🎉 Thrilled to share that our team won the <strong>1st Place</strong>🏅 in the eCommerce Data Challenge at the eCommerce Workshop @ SIGIR 2026! Congratulations to all members!</span><span class="i18n-zh-inline">🎉🎉 我们团队在 SIGIR 2026 eCommerce Workshop 的 eCommerce Data Challenge 中获得<strong>冠军</strong>🏅！祝贺所有成员！</span></div>
+    </div>
+    <div class="news-card">
       <div class="news-date">2026.07.10</div>
       <div class="news-text"><span class="i18n-en-inline">🎉🎉 One paper (LightAIR), was accepted by <strong>ACM MM 2026</strong>! Congratulations to all co-authors!</span><span class="i18n-zh-inline">🎉🎉 一篇论文（LightAIR）被 <strong>ACM MM 2026</strong> 接收！祝贺所有合作者！</span></div>
     </div>
@@ -1177,6 +1181,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 # 🏆 Competition
+- 1st place 🏅, SIGIR eCommerce Workshop, eCommerce Data Challenge, 2026.  [[Link]](https://www.codabench.org/competitions/15297/#/results-tab)
 - 1st place 🏅, CVPR VidLLMs Workshop, Reasoned-Aware Composed Video Retrieval Challenge, 2026.
 - 1st place 🏅, CVPR EgoVis Workshop, HD-EPIC Challenge, 2026. [[Link]](https://www.codabench.org/competitions/13645/#/results-tab)
 - 1st place 🏅, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Multi-Instance Retrieval Track, 2026. [[Link]](https://www.codabench.org/competitions/12008/#/results-tab)
