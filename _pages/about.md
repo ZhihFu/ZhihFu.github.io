@@ -694,12 +694,21 @@ Hi, I am Zhiheng Fu (付志恒).
   <div class="i18n-zh"><p>我隶属于智能媒体研究中心 (iLearn)，并相信开源研究能够提升多模态学习的可复现性与协作性。我主要参与的项目与实验室项目持续开源，欢迎访问 <a href="https://github.com/iLearn-Lab">iLearn Lab</a> 并提出宝贵意见。</p></div>
 </div>
 
-<!-- <div class="opensource-section" id="open-source-projects">
+<div class="opensource-section" id="open-source-projects">
   <div class="section-kicker"><span class="i18n-en-inline">💻 Open Science</span><span class="i18n-zh-inline">💻 开放科学</span></div>
   <div class="opensource-title"><span class="i18n-en-inline">Projects</span><span class="i18n-zh-inline">项目主页</span></div>
   <p class="opensource-subtitle i18n-en">Below are representative project pages and repositories from my recent works. Feedback, issues, and pull requests are warmly welcome.</p>
   <p class="opensource-subtitle i18n-zh">以下是我近期代表性工作的项目主页与代码仓库，欢迎反馈、Issue 与 PR。</p>
   <div class="opensource-grid" id="opensource-grid">
+    <div class="opensource-card">
+      <img src="../images/lightair-logo.png" alt="LightAIR">
+      <div class="opensource-card-title">LightAIR</div>
+      <div class="opensource-card-meta"><span class="i18n-en-inline">ACM MM 2026 · Lightweight Anomaly Action Search</span><span class="i18n-zh-inline">ACM MM 2026 · 轻量化异常动作搜索</span></div>
+      <div class="opensource-card-links">        <a href="http://arxiv.org/abs/2608.09152" target="_blank" title="Open LightAIR paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a>
+        <a href="https://rainy-london.github.io/LightAIR/" target="_blank" title="Open LightAIR project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a>
+        <a href="https://github.com/rainy-london/LightAIR" target="_blank" title="Open LightAIR code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a>
+      </div>
+    </div> 
     <div class="opensource-card">
       <img src="../images/tema-logo.png" alt="TEMA">
       <div class="opensource-card-title">TEMA</div>
@@ -755,7 +764,7 @@ Hi, I am Zhiheng Fu (付志恒).
       <div class="opensource-card-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank" title="Open ENCODER paper"><span class="i18n-en-inline">Paper</span><span class="i18n-zh-inline">论文</span></a><a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank" title="Open ENCODER project page"><span class="i18n-en-inline">Project</span><span class="i18n-zh-inline">项目</span></a><a href="https://github.com/Lee-zixu/ENCODER" target="_blank" title="Open ENCODER code repository"><span class="i18n-en-inline">Code</span><span class="i18n-zh-inline">代码</span></a></div>
     </div>
   </div>
-</div> -->
+</div>
 
 <div class="news-section" id="news">
   <div class="section-kicker"><span class="i18n-en-inline">🔥 Updates</span><span class="i18n-zh-inline">🔥 最新动态</span></div>
@@ -819,7 +828,7 @@ Hi, I am Zhiheng Fu (付志恒).
 <div id='paper-lightair' class='paper-box floating-card' data-tags="ACM MM 2026, CCF A, Multimodal Understanding"><div class='paper-box-image'><div><div class="badge">ACM MM 2026</div><img src='images/LightAIR-MM26.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search** [[Coming Soon]](#)
+**LightAIR: Lightweight Action Inversion and Riemannian Rectification for Text-based Person Anomaly Search**  [[Paper]](http://arxiv.org/abs/2608.09152) [[Project]](https://rainy-london.github.io/LightAIR/) [[Code]](https://github.com/rainy-london/LightAIR)
 
 [Yulun Zhang](https://rainy-london.github.io/), [Zixu Li](https://lee-zixu.github.io)†, [Zhiwei Chen](https://zivchen-ty.github.io/), [***Zhiheng Fu***](https://zhihfu.github.io), Wenbo Wang, Zihang Qiu, Zhilin Wang, [Ruxin Wang](https://mathwrx.github.io)✉, [Yupeng Hu](https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm)
 </div>
