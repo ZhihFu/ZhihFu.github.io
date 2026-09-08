@@ -682,7 +682,7 @@ Hi, I am Zhiheng Fu (付志恒).
       </div>
       <div class="lang-panel" data-lang-panel="zh" role="tabpanel">
         <div class="research-intro">
-          <p>欢迎来到我的主页！我目前是山东大学<a href="https://www.sc.sdu.edu.cn">软件学院</a>本科生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a>, 并与 Dr. <a href="https://lee-zixu.github.io">Zixu Li</a> 与 Dr. <a href="https://zivchen-ty.github.io">Zhiwei Chen</a> 保持紧密合作。我的研究兴趣主要聚焦于<strong>多模态大语言模型、鲁棒表征学习与可信AI研究</strong>。</p>
+          <p>欢迎来到我的主页！我目前是山东大学<a href="https://www.sc.sdu.edu.cn">软件学院</a>本科生，师从 Prof. <a href="https://liqiangnie.github.io/index.html">Liqiang Nie</a>, 并由 Dr. <a href="https://lee-zixu.github.io">Zixu Li</a> 共同指导，同时与 Dr. <a href="https://zivchen-ty.github.io">Zhiwei Chen</a> 保持紧密合作。我的研究兴趣主要聚焦于<strong>多模态大语言模型、鲁棒表征学习与可信AI研究</strong>。</p>
           <p>一方面，我关注细粒度视觉-语言语义融合、组合式图文/视频理解、鲁棒噪声抑制、知识校准与意图感知表征学习，代表工作包括 <strong>Air-Know</strong>、<strong>TEMA</strong>、<strong>ConeSep</strong>、<strong>INTENT</strong>、<strong>FineCIR</strong> 与 <strong>ENCODER</strong>；另一方面，我参与长视频理解、第一视角视觉推理与多模态评测系统构建，相关技术报告包括 <strong>R<sup>3</sup></strong>、<strong>TempRet</strong>、<strong>EgoAdapt</strong>、<strong>OmniEgo-R<sup>2</sup></strong> 与 <strong>EgoAction</strong>。</p>
           <p>除学术论文外，我也积极参与开源研究与挑战赛系统建设。相关工作发表于 <strong>ACL、CVPR、AAAI</strong> 及其 workshop，并作为核心成员参与团队在 CVPR 2026 多个国际挑战赛中获得冠军、亚军和季军。相关经历曾获<strong>国家奖学金</strong>与 CICAS 智能电力场景竞赛<strong>特等奖</strong>等荣誉。</p>
         </div>
