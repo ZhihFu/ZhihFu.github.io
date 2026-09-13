@@ -1185,6 +1185,7 @@ document.addEventListener('DOMContentLoaded', function() {
 - 基于互补性引导解耦的组合图像检索方法及系统 - 公开号: *CN120144811A* - [[详情]](https://www.baiten.cn/patent/detail/3af290afe06cce7ff17d1af87d3ba3b7845214512dc12e86?sc=&fq=&type=&sort=&sortField=&q=付志恒+山东大学&rows=10#1/CN202510142418.4/detail/abst) -->
 
 # 🏆 Honors and Awards
+- *2025.11*, Presidential Scholarship Finalist Presentation.
 - *2025.10*, National Scholarship (国家奖学金).
 - *2025.10*, **Grand Prize** in the CICAS Smart Power Scenario Competition.
 
@@ -1199,7 +1200,7 @@ document.addEventListener('DOMContentLoaded', function() {
 - 3rd place 🥉, CVPR EgoVis Workshop, EPIC-KITCHENS Challenge-Action Detection Track, 2026. [[Link]](https://www.codabench.org/competitions/13830/#/results-tab)
 
 # 📖 Educations
-- *2022.09 - Present*, Undergrad in the School of Software
+- *2022.09 - Present*, Undergrad at School of Software, Shandong University
 
 # 📃 Services
 Serving as reviewer for:
